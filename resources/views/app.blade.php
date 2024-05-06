@@ -27,17 +27,10 @@
                                 color:black;
                                 text-decoration:none;
                                 transition:1s;
-                                &.active{
-                                color:blue;
-                                background-color:lightblue;
-                                font-size:1.8rem;
-                                    &:hover{
-                                        color:blue;
-                                    }
-                                }
                                 &:hover{
                                 color:red;
                                 text-shadow:2px 2px black;
+
                                 }
                             }
                         }
@@ -45,10 +38,6 @@
                 }
                 h1{
                     text-align:center;
-                    padding:10rem;
-                    border:1px solid black;
-                    width:80%;
-                    margin:5rem auto;
                 }
         </style>
     </head>
@@ -56,13 +45,13 @@
         <div id="site_header">
             <ul id="navbar">
                 <li class="nav_item">
-                    <a class="active" href="home">Home</a></li>
+                    <a href="home">Home</a></li>
                 <li class="nav_item">
                     <a href="contacts">Contacts</a></li>
                 <li class="nav_item">
                     <a href="aboutme">About me</a></li>
             </ul>
         </div>
-                <h1>{{$message}} {{$name}}</h1>
+        <h1>Nothing here, try to click on Navbar options</h1>
     </body>
 </html>
