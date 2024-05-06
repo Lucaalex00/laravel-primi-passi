@@ -35,11 +35,12 @@ Route::get('contacts', function () {
     
     return view('contacts', $data);
 });
-Route::get('aboutme', function () {
+Route::get('aboutme', function (){
     $data =[
         'message' => 'lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet',
         'title' => 'Hello !',
+        'url'=> route('aboutme'),
     ];
     
     return view('aboutme', $data);
-});
+})->name('aboutme') ;

@@ -70,7 +70,8 @@
                 <li class="nav_item">
                     <a href="contacts">Contacts</a></li>
                 <li class="nav_item ">
-                    <a class="active" href="aboutme">About me</a></li>
+                    <a class="active" href="{{ $url }}">About me</a>
+
             </ul>
         </div>
                 <h1>{{$title}}</h1>
